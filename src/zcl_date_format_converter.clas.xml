@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_DATE_FORMAT_CONVERTER</CLSNAME>
+    <LANGU>P</LANGU>
+    <DESCRIPT>Class for Date Format Conversion Utilities</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>CONVERT_DATE_BAR</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Converts the date with slashes. Ex: 01/01/2020</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CONVERT_DATE_DASH</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Converts the date with dashes. Ex: 01-01-2020</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CONVERT_DATE_DOT</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Converts the date with dots. Ex: 01.01.2020</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>FORMAT_DATE</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Processes dates and returns them as SAP internal date</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
